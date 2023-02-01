@@ -4,6 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		firstExercise();
+
+	}
+
+	public static void firstExercise() {
+
 		System.out.print("+++++++++++++++++++++++++++++");
 		System.out.print("- Benvenuto allo zoo! -");
 		System.out.print("+++++++++++++++++++++++++++++");

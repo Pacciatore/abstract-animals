@@ -6,6 +6,10 @@ public class Main {
 
 		firstExercise();
 
+		System.out.println("------------------------------------------------");
+
+		secondExercise();
+
 	}
 
 	public static void firstExercise() {
@@ -36,6 +40,30 @@ public class Main {
 		System.out.println("Che baccano, questo cane non smette di abbaiare!");
 		dog.verso();
 
+	}
+
+	public static void secondExercise() {
+
+		System.out.println("\nOra vediamo un po' cosa sono capaci di fare questi animali!");
+
+		Passerotto bird = new Passerotto();
+		System.out.println("\nEcco il passerotto!");
+		System.out.println("Il passerotto dice:");
+		faiVolare(bird);
+
+		Delfino dolphin = new Delfino();
+		System.out.println("\nIl delfino si è svegliato!");
+		System.out.println("Il delfino dice:");
+		faiNuotare(dolphin);
+
+	}
+
+	public static void faiVolare(IVolante animale) {
+		animale.vola();
+	}
+
+	public static void faiNuotare(INuotante animale) {
+		animale.nuota();
 	}
 
 }

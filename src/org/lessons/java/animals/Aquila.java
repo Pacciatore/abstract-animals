@@ -18,7 +18,7 @@ public class Aquila extends Animale implements IVolante {
 
 	@Override
 	public void vola() {
-		System.out.println("Sto volando!!!");
+		System.out.println("L'aquila vola!!!");
 	}
 
 }

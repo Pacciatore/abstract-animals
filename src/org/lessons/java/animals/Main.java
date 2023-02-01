@@ -48,13 +48,18 @@ public class Main {
 
 		Passerotto bird = new Passerotto();
 		System.out.println("\nEcco il passerotto!");
-		System.out.println("Il passerotto dice:");
+
 		faiVolare(bird);
 
 		Delfino dolphin = new Delfino();
 		System.out.println("\nIl delfino si è svegliato!");
-		System.out.println("Il delfino dice:");
+
 		faiNuotare(dolphin);
+
+		Aquila eagle = new Aquila();
+		System.out.println("\nArriva anche l'aquila!");
+
+		faiVolare(eagle);
 
 	}
 

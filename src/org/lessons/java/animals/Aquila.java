@@ -1,6 +1,6 @@
 package org.lessons.java.animals;
 
-public class Aquila extends Animale {
+public class Aquila extends Animale implements IVolante {
 
 	public Aquila() {
 		// TODO Auto-generated constructor stub
@@ -14,6 +14,11 @@ public class Aquila extends Animale {
 	@Override
 	public void mangia() {
 		System.out.println("Carne");
+	}
+
+	@Override
+	public void vola() {
+		System.out.println("Sto volando!!!");
 	}
 
 }
